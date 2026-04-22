@@ -76,7 +76,7 @@ Acknowledge individuals and organizations that supported your project.
 
 ### 5. **Data Research and Acquiring Effort**
 - What data did you search for and why?
-- How did you acquire it?
+- How did you acquire it? Sources, APIs, Scraping.
 - **Links to raw data sources** (URLs, datasets)
 - Brief description of each data source
 
@@ -92,7 +92,6 @@ Acknowledge individuals and organizations that supported your project.
 Describe all data preparation steps in sequence:
 - Data type conversions
 - Handling missing values
-- Removing duplicates
 - Merging datasets
 - Aggregation and appending
 - Any other transformations applied
@@ -119,10 +118,11 @@ Examples:
 - Chart 2: Customer Segmentation – Identifies high-value segments
 - Chart 3: Regional Performance – Highlights top/bottom performers
 
-### 10. **Advanced Analytics and AI Modeling** *(Optional, based on project type)*
-- What type of model did you build? (Clustering, Predictive, Association, Generative AI, etc.)
+### 10. **Advanced Analytics and AI Modeling**
+- What type of model did you build? (Clustering, Predictive, Association, Generative AI, forecasting, agents, etc.)
+- What pre built AI models did you use and how?
 - What results were you seeking or what attribute are you predicting?
-- **Model Characteristics**: Accuracy, precision, recall, weights, parameters
+- **Model Characteristics**: Such as Accuracy, precision, recall, weights, parameters
 - Include multiple iterations if applicable
 - Explain your findings and model performance
 
@@ -135,12 +135,13 @@ Examples:
 Examples:
 - Data Analysis: Python, R, SQL
 - Visualization: Tableau, Power BI, Looker
-- Deployment: Streamlit, Flask, Cloud platforms
+- Deployment: Streamlit, Fast API, Gradio, Flask, Cloud platforms
 
 ### 12. **Project Deployment Effort – Use Case**
 - How will a business user consume this project?
   - Interactive web dashboard (Streamlit)?
   - Scheduled reports?
+  - Dashboard
   - Live API?
   - Mobile app?
 - Implementation steps in chronological order
@@ -161,7 +162,7 @@ List all sources cited in your project using a consistent citation format (APA, 
 ## Documentation Best Practices
 
 ✅ **Do's:**
-- Write in clear, professional language
+- Write in clear, descriptive language documenting your work effort.
 - Use consistent formatting and headings
 - Include visuals (charts, screenshots, diagrams)
 - Add links to your data sources and tools
@@ -169,7 +170,7 @@ List all sources cited in your project using a consistent citation format (APA, 
 - Use version control (git commits with meaningful messages)
 
 ❌ **Don'ts:**
-- Don't use Word documents – use Markdown (.md) for version control
+- Don't use Word documents – use Markdown (.md) for project documentation and version control
 - Don't commit large data files directly – use `.gitignore` and reference external sources
 - Don't leave sections incomplete – mark as TODO if not ready
 - Don't forget to document your data sources and methodology
@@ -197,7 +198,7 @@ List all sources cited in your project using a consistent citation format (APA, 
 3. **Create your project directory structure** using the template above
 4. **Start documenting in Markdown** – one `.md` file per major section
 5. **Commit regularly**: `git add . && git commit -m "Add data analysis"` && `git push`
-6. **Link everything in your main README.md** so it's easy to navigate
+6. **Important --> Link everything in your main README.md** so it's easy to navigate
 
 ---
 
@@ -296,8 +297,8 @@ sqlalchemy==2.0.0
 - **Markdown Guide**: [GitHub Markdown Documentation](https://guides.github.com/features/mastering-markdown/)
 - **Git Tutorial**: [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 - **BI Tools**: Research and document your tool choices in Section 11
-- **Data Sources**: Kaggle, UCI ML Repository, Government Open Data, Industry Datasets
+- **Data Sources**: APIs, UCI ML Repository, Government Open Data, Industry Datasets, Web scraping, etc.
 
 ---
 
-**Good luck with your Business Intelligence graduation project!** 🚀
+**Good luck with your Business Intelligence graduation project!** 
