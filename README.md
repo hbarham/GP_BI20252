@@ -4,7 +4,6 @@
 
 ---
 
-<<<<<<< HEAD
 ## How to Use This Template
 
 This repository serves as a **template for Business Intelligence graduation projects**. Students should **fork this repository** and use it as the foundation for their project work. All project-related files and documentation should be organized within this single repository.
@@ -298,6 +297,3 @@ sqlalchemy==2.0.0
 ---
 
 **Good luck with your Business Intelligence graduation project!** 
-=======
-- **Project Introduction**: [Project Introduction](docs/Project_Introduction.md)
->>>>>>> 66b0c2787dba5c06f8930ed382ed18eb1ccbf9cf
